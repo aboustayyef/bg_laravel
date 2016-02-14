@@ -29,7 +29,7 @@
 	@yield('content')
 	
 	<!-- Custom App -->
-	<script src="/js/all.js"></script>
+	<script src="/js/all.js?v=1.01"></script>
 
 </body>
 </html>
