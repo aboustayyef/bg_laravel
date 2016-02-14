@@ -50,6 +50,12 @@
 			background:none;
 			border:none;
 		}
+		&.header__logo{
+			background: url("../img/bg_logo.png") no-repeat;
+			background-repeat: no-repeat;
+			background-size: 250px 57px;
+			border:none;
+		}
 	}
 
 	.navigation--highlight{

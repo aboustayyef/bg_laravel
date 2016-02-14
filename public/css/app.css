@@ -725,6 +725,11 @@ body {
     .navigation__link.nobackground {
       background: none;
       border: none; }
+    .navigation__link.header__logo {
+      background: url("../img/bg_logo.png") no-repeat;
+      background-repeat: no-repeat;
+      background-size: 250px 57px;
+      border: none; }
   .navigation--highlight {
     background: inherit;
     padding: inherit;
