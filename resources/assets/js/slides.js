@@ -5,6 +5,7 @@ $(document).ready(function(){
 		"../img/slides/kanaha_003.jpg",
 		"../img/slides/morrison_00.jpg",
 		"../img/slides/white-silver-power-office.jpg",
+		"../img/slides/foster_005.jpg",
 		"../img/slides/movy_is_3_003.jpg",
 		"../img/slides/tower_evo_44_45.jpg",
 		"../img/slides/interstuhl_ambient_yellow.jpg",
