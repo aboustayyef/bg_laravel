@@ -1,0 +1,7 @@
+.bgCollection__image{
+	max-width:100%;
+}
+
+.bgCollection__h3{
+	@include colored_h3();
+}

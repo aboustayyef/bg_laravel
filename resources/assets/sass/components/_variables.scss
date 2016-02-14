@@ -1,0 +1,11 @@
+$bgBackgroundColor: #909090;
+$bgMainColor: #3D68E8;
+$bgMaxWidth : 1680px;
+$bgContentMaxWidth : $bgMaxWidth * 0.8;
+
+// Mixins
+
+@mixin colored_h3(){
+	color:lighten($bgMainColor,20);
+	text-transform:uppercase;
+}

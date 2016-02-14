@@ -1,0 +1,16 @@
+body{
+	padding-top:100px; // to account for fixed header element..
+	&.noscroll{
+		overflow:hidden;
+	}
+}
+img{
+	max-width:100%;
+}
+.layout__inner{
+	max-width:$bgContentMaxWidth;
+	margin:0 auto;
+	@media all and (max-width : $bgContentMaxWidth){
+		padding:0 20px;
+	}
+}

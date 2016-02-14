@@ -1,0 +1,38 @@
+body{
+	background-color:$bgBackgroundColor;
+	margin:0;
+}
+#header{
+	height:100px;
+	position:fixed;
+	top:0;
+	z-index:10000;
+	width:100%;
+}
+.header__outer_wrapper{
+	margin:auto;
+	width:100%;
+	max-width:$bgMaxWidth;
+	overflow:auto;
+	background:white;
+	border-bottom:1px solid #E6E6E6;
+}
+.header__wrapper{
+	background-color:white;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+.header__logo{
+	width: 250px;
+	min-height: 56px;
+	background: url("../img/bg_logo.png") no-repeat;
+	background-repeat: no-repeat;
+	background-size: 250px 57px;
+	flex-basis:300px;
+	@media all and (max-width:400px){
+		width: 150px;
+		background-size: 185px auto;
+	}
+}

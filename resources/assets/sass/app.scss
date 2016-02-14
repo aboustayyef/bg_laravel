@@ -1,0 +1,26 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// box sizing
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// app
+@import "components/variables";
+@import "components/bootstrap_grid";
+@import "components/layout";
+@import "components/header";
+@import "components/navigation";
+@import "components/navigation_mobile";
+
+@import "components/slides";
+@import "components/features";
+@import "components/typography";
+@import "components/sections";
+@import "components/projects";
+@import "components/collection";
+@import "components/contact";
+@import "components/modalpage";
+@import "components/utilities";

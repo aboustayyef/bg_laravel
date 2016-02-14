@@ -1,0 +1,24 @@
+.bgSection{
+	padding:20px 0;
+	border-top:10px solid #ededed;
+	border-bottom:1px solid darken(#ededed, 5);
+	@media all and (min-width:600px){
+		padding:10px 0 50px 0;
+	}
+
+}
+#home{
+	background:white;
+	border:none;
+	padding-bottom:0;
+}
+
+#features{
+	border-top:none;
+}
+
+.bgSection--notop{
+	margin-top:0;
+	padding-top:0;
+	border-top:none;
+}

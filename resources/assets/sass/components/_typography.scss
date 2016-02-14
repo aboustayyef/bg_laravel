@@ -1,0 +1,17 @@
+body{
+	font-family:"Lato";
+	line-height:1.8;
+}
+
+p.lead{
+	color:#444;
+	border-top:1px solid #e2e2e2;
+	border-bottom:1px solid #e2e2e2;
+	padding: 10px 0;
+	font-weight: 300;
+    font-size: 26px;
+    line-height: 1.2;
+    @media all and (max-width: 600px){
+    	font-size:20px;
+    }
+}
