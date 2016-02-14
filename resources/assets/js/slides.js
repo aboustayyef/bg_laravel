@@ -1,15 +1,16 @@
 $(document).ready(function(){
 	var fullSlides = [
 		"../img/slides/reference_silver_088.jpg",
+		"../img/slides/laptops-and-couch.jpg",
 		"../img/slides/sanders_003.jpg",
 		"../img/slides/kanaha_003.jpg",
+		"../img/slides/miro-2.jpg",
 		"../img/slides/morrison_00.jpg",
-		"../img/slides/white-silver-power-office.jpg",
-		"../img/slides/foster_005.jpg",
-		"../img/slides/movy_is_3_003.jpg",
+		"../img/slides/milieu_chefbuero.jpg",
 		"../img/slides/tower_evo_44_45.jpg",
 		"../img/slides/interstuhl_ambient_yellow.jpg",
 		"../img/slides/vista_74_75.jpg",
+		"../img/slides/reference_airpad_01.jpg"
 	];
 
 	var mobileSlides = [

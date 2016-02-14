@@ -1,7 +1,7 @@
 <div class="layout__inner">
 	<h2>Contact Us</h2>
 	<p class="lead nomargin mobileHide">
-		Visit our showrooms in Accra or Tema to know why top executives, community leaders and celebrities are choosing our products
+		Visit our showrooms in Accra and Tema for a closer look at our furniture collection
 	</p>
 	<div class="container-fluid">
 		<div class="row borderbottom">
@@ -25,8 +25,8 @@
 				<h3 class="bgContact__h3">Accra</h3>
 				<div class="bgContact__captionWrapper">
 					<img src="img/max-mart.jpg" width="100%" alt="">
-					<div class="bgContact__caption">
-						<p class="bgContact__address">Max Mart Shopping Centre. Near Military 37 Hospital</p>
+					<div class="bgContact__caption bgContact__caption--light">
+						<p class="bgContact__address">Maxmart Shopping Mall, 37 street</p>
 						<ul class="bgContact__buttonList">
 							<li class="bgContact__button" onclick="ga('send', 'event', 'action', 'call' , 'Tema')">+233 264672320</li>
 							<li class="bgContact__button bgContact__button--inverse" onclick="ga('send', 'event', 'action', 'click' , 'Tema Map')"">

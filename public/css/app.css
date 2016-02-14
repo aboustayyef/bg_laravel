@@ -873,6 +873,7 @@ p.lead {
 .bgContact__captionWrapper {
   position: relative; }
   .bgContact__captionWrapper img {
+    opacity: 0.7;
     display: block; }
 
 .bgContact__caption {
