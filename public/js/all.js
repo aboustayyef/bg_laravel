@@ -161,22 +161,17 @@ $(document).ready(function(){
 	Functions
  */
 
-	var toggleModal = function(e){
-		$('body').toggleClass('noscroll');
-		$('#modalpage').toggleClass('active');
-	}
-
 	var turnOffModal = function(e){
 		$('body').removeClass('noscroll');
-		$('#modalpage').removeClass('active');
+		$('.modalpage').removeClass('active');
 	}
 
-	var turnOnModal = function(e){
+	var turnOnModal = function(which_modal, e){
 		if (!$('body').hasClass('noscroll')) {
 			$('body').addClass('noscroll');
 		};
-		if (!$('#modalpage').hasClass('active')) {
-			$('#modalpage').addClass('active');
+		if (!$('#'+ which_modal).hasClass('active')) {
+			$('#'+ which_modal).addClass('active');
 		};
 	}
 
@@ -185,8 +180,9 @@ $(document).ready(function(){
 	Events
  */
 
-	$('.on-modal').on('click', function(){
-		turnOnModal();
+	$('.on-modal').on('click', function(e){
+        e.preventDefault();
+		turnOnModal($(this).data('modal'));
 	});
 
 	$('.off-modal').on('click', function(){

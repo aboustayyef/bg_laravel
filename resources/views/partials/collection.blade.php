@@ -10,6 +10,7 @@
 				<p>
 					Modern, Stylish and exclusive. Blue Gallery only stocks the highest standards of sofas, armchairs, coffee tables, Beds and mattresses for the contemporary living room.
 				</p>
+				<a href="" data-modal="living-room-modal" class="btn on-modal">Quick Look</a>
 			</div>
 			<div class="col-md-4">
 				<h3 class="bgCollection__h3">Office Furniture</h3>
@@ -17,6 +18,7 @@
 				<p>
 					High quality office chairs for maximum seating performance, characterised by exceptional  design and state-of-the-art German Technology combined with Italian office furniture that is functional and elegant for a customised and efficient workplace.
 				</p>
+				<a href="" data-modal="office-furniture-modal" class="btn on-modal">Quick Look</a>
 			</div>
 			<div class="col-md-4">
 				<h3 class="bgCollection__h3">Accessories</h3>
@@ -24,6 +26,8 @@
 				<p>
 					Rugs, Bowls, vases, dishes,shelf objects &amp; candle holders that will make a great complement to any living area with their distinctive and exquisite style to add more life and spirit to your home.
 				</p>
+				<a href="" data-modal="accessories-modal" class="btn on-modal">Quick Look</a>
+
 			</div>
 		</div>
 	</div>

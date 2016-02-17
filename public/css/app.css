@@ -916,7 +916,7 @@ ul.social_media {
     list-style: none;
     display: inline-block; }
 
-#modalpage {
+.modalpage {
   display: none;
   z-index: 2;
   position: fixed;
@@ -930,14 +930,14 @@ ul.social_media {
   margin: auto;
   transition: all 2s ease-in-out;
   z-index: 1000001; }
-  #modalpage.active {
+  .modalpage.active {
     display: block;
     top: 60px; }
   @media screen and (max-width: 600px) {
-    #modalpage {
+    .modalpage {
       right: 0;
       left: 0; }
-      #modalpage.active {
+      .modalpage.active {
         top: 0;
         bottom: 0; } }
 

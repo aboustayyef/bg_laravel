@@ -35,7 +35,7 @@ Blue Gallery Home &amp; Office - Contemporary furniture in Ghana
     	@include('partials.contacts')
     </div>
 </div>
-<div id="modalpage">
+<div class="modalpage" id="contact-modal">
 		<div id="closewindow">
 			<div class="layout__inner">
 				<a href="#" class="light off-modal">&times; close</a>
@@ -43,4 +43,9 @@ Blue Gallery Home &amp; Office - Contemporary furniture in Ghana
 		</div>
 		@include('partials.contacts')
 </div>
+
+@include('partials.livingModal')
+@include('partials.officeModal')
+@include('partials.accessoriesModal')
+
 @stop
