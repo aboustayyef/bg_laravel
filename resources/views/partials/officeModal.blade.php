@@ -4,5 +4,15 @@
                 <a href="#" class="light off-modal">&times; close</a>
             </div>
         </div>
-        <h2>This is The Office Room modal</h2>
+        <div class="container-fluid">
+        	<div class="col-md-12">
+        		<h2>Office Furniture At Blue Gallery</h2>
+        		<p class="lead">A small paragraph about the office furniture at Blue Gallery</p>
+        		<h3>Interstuhl</h3>
+        		<div class="thumbs clearfix">
+        			
+        		</div>
+        	</div>
+
+        </div>
 </div>

@@ -1,13 +1,14 @@
 <div class="layout__inner">
+	<div class="container-fluid">
 	<h2>Contact Us</h2>
 	<p class="lead nomargin mobileHide">
 		Visit our showrooms in Accra and Tema for a closer look at our furniture collection
 	</p>
-	<div class="container-fluid">
 		<div class="row borderbottom">
 
 			<section class="col-sm-6">
 				<h3 class="bgContact__h3">Tema</h3>
+				<p><strong>Business Hours:</strong> Mon-Fri 8:30-17:00 Sat 10:00-17:00 Sunday Closed</p>
 				<div class="bgContact__captionWrapper">
 					<img src="img/bluegallery-showroom-tema.jpg" width="100%" alt="">
 					<div class="bgContact__caption bgContact__caption--light">
@@ -23,6 +24,7 @@
 			</section>
 			<section class="col-sm-6">
 				<h3 class="bgContact__h3">Accra</h3>
+				<p><strong>Business Hours:</strong> Mon-Sun 9:00-21:00</p>
 				<div class="bgContact__captionWrapper">
 					<img src="img/max-mart.jpg" width="100%" alt="">
 					<div class="bgContact__caption bgContact__caption--light">

@@ -831,10 +831,16 @@ p.lead {
 .bgSection {
   padding: 20px 0;
   border-top: 10px solid #ededed;
-  border-bottom: 1px solid #e0e0e0; }
+  border-bottom: 1px solid #e0e0e0;
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  background: white; }
   @media all and (min-width: 600px) {
     .bgSection {
       padding: 10px 0 50px 0; } }
+  .bgSection--footer {
+    background: #ededed; }
 
 #home {
   background: white;
@@ -1005,12 +1011,6 @@ body.noscroll .page__shroud {
 .utlity__nomargins {
   margin: 0; }
 
-.bgSection {
-  width: 100%;
-  max-width: 1680px;
-  margin: 0 auto;
-  background: white; }
-
 .bg_container {
   padding: 5%; }
 
@@ -1021,5 +1021,16 @@ body.noscroll .page__shroud {
   content: "";
   display: table;
   clear: both; }
+
+.btn {
+  padding: 8px 15px;
+  border: 1px solid silver;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #222; }
+  .btn:hover {
+    color: white;
+    background: #222;
+    border: none; }
 
 /*# sourceMappingURL=app.css.map */

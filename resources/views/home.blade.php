@@ -48,4 +48,6 @@ Blue Gallery Home &amp; Office - Contemporary furniture in Ghana
 @include('partials.officeModal')
 @include('partials.accessoriesModal')
 
+@include('partials.footer')
+
 @stop

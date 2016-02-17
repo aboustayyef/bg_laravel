@@ -22,7 +22,8 @@
 			<img src="/img/customerslogos/societegenerale.png" height="50px" width="50px" >
 			<img src="/img/customerslogos/queiroz.png" height="50px" widht="auto" alt="">
 			<img src="/img/customerslogos/interplast.png" height="50px" width="auto">
-			<img src="/img/customerslogos/vitol.png" height="50px" width"="auto" alt="">
+			<img src="/img/customerslogos/vitol.png" height="50px" width="auto" alt="">
+			<img src="/img/customerslogos/vra.jpg" height="50px" width="167.5" alt="">
 		</div>
 	</div>
 </div>
