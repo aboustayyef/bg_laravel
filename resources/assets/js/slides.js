@@ -7,14 +7,15 @@ $(document).ready(function(){
 		"../img/slides/miro-2.jpg",
 		"../img/slides/morrison_00.jpg",
 		"../img/slides/milieu_chefbuero.jpg",
-		"../img/slides/tower_evo_44_45.jpg",
 		"../img/slides/interstuhl_ambient_yellow.jpg",
 		"../img/slides/vista_74_75.jpg",
 		"../img/slides/reference_airpad_01.jpg"
 	];
 
 	var mobileSlides = [
-		"../img/slides/lowres_interstuhl_ambient_yellow.jpg"
+		"../img/slides/lowres_laptops-and-couch.jpg",
+		"../img/slides/lowres_interstuhl_ambient_yellow.jpg",
+		"../img/slides/lowres_reference_silver_088.jpg"
 	]
 
 	if (window.outerWidth < 601) {

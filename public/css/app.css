@@ -573,9 +573,11 @@ img {
   @media all and (max-width: 1344px) {
     .layout__inner {
       padding: 0 20px; } }
+  .layout__inner--dark {
+    background-color: #111; }
 
 body {
-  background-color: #909090;
+  background-color: #333;
   margin: 0; }
 
 #header {
@@ -855,6 +857,9 @@ p.lead {
   padding-top: 0;
   border-top: none; }
 
+#LetUsHelpYou {
+  background-color: #3f3f3f; }
+
 .projects__info {
   color: #1D1D1D;
   padding: 20px 40px;
@@ -871,6 +876,12 @@ p.lead {
 .bgCollection__h3 {
   color: #98aff3;
   text-transform: uppercase; }
+
+.brand__poster {
+  transition: opacity 0.5s;
+  opacity: 1; }
+  .brand__poster:hover {
+    opacity: 0.5; }
 
 .bgContact__h3 {
   color: #98aff3;
@@ -922,6 +933,14 @@ ul.social_media {
     list-style: none;
     display: inline-block; }
 
+.customer_logos img {
+  height: 50px;
+  width: auto; }
+  @media all and (max-width: 600px) {
+    .customer_logos img {
+      height: 30px;
+      width: auto; } }
+
 .modalpage {
   display: none;
   z-index: 2;
@@ -931,7 +950,6 @@ ul.social_media {
   right: 20px;
   overflow-y: scroll;
   background: #f2f2f2;
-  transition: all 2s ease-in-out;
   max-width: 1640px;
   margin: auto;
   transition: all 2s ease-in-out;
@@ -939,6 +957,8 @@ ul.social_media {
   .modalpage.active {
     display: block;
     top: 60px; }
+  .modalpage--white {
+    background: white; }
   @media screen and (max-width: 600px) {
     .modalpage {
       right: 0;
@@ -947,20 +967,16 @@ ul.social_media {
         top: 0;
         bottom: 0; } }
 
-#closewindow {
-  overflow: auto;
-  font-size: 20px;
-  float: right; }
-  #closewindow a {
-    height: 0;
-    padding: 5px;
-    border: 1px solid #666666;
-    border-top: none;
+.closewindow {
+  float: right;
+  font-size: 60px;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+  text-align: center; }
+  .closewindow a {
     text-decoration: none;
     color: black; }
-    #closewindow a:hover {
-      background: black;
-      color: white; }
 
 .page__shroud {
   position: fixed;

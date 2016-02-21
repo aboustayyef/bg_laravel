@@ -42,9 +42,13 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-				<p>On Social Media</p>
+				<p>Other ways to get in touch</p>
 			</div>
 			<ul class="social_media">
+				<li>
+					<a href="mailto:bluegalleryghana@gmail.com">
+						<img src="img/socialmediaicons/email.png" alt="Email Blue Gallery" onclick="ga('send', 'event', 'exit link', 'social media' , 'email')"></a>
+				</li>
 				<li>
 					<a href="https://facebook.com/blue.gallery.ghana">
 						<img src="img/socialmediaicons/facebook.png" alt="Blue Gallery on Facebook" onclick="ga('send', 'event', 'exit link', 'social media' , 'facebook')"></a>

@@ -13,4 +13,9 @@ img{
 	@media all and (max-width : $bgContentMaxWidth){
 		padding:0 20px;
 	}
+
+	&--dark{
+		background-color:#111;
+	}
+
 }

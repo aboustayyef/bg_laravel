@@ -36,10 +36,8 @@ Blue Gallery Home &amp; Office - Contemporary furniture in Ghana
     </div>
 </div>
 <div class="modalpage" id="contact-modal">
-		<div id="closewindow">
-			<div class="layout__inner">
-				<a href="#" class="light off-modal">&times; close</a>
-			</div>
+		<div class="closewindow">
+				<a href="#" class="light off-modal">&times;</a>
 		</div>
 		@include('partials.contacts')
 </div>

@@ -1,7 +1,7 @@
-<div class="modalpage" id="office-furniture-modal">
+<div class="modalpage modalpage--white" id="office-furniture-modal">
         <div id="closewindow">
-            <div class="layout__inner">
-                <a href="#" class="light off-modal">&times; close</a>
+            <div class="closewindow">
+                <a href="#" class="light off-modal">&times;</a>
             </div>
         </div>
         <div class="container-fluid">

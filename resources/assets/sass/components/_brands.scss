@@ -1,0 +1,7 @@
+.brand__poster{
+	transition: opacity 0.5s;
+	opacity:1;
+	&:hover{
+		opacity:0.5;
+	}
+}

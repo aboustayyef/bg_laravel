@@ -15,6 +15,8 @@ $(document).ready(function(){
 		};
 		if (!$('#'+ which_modal).hasClass('active')) {
 			$('#'+ which_modal).addClass('active');
+			// Adjust window height to enable scrolling
+			$('.modalpage.active').outerHeight($(window).height() - 100 );
 		};
 	}
 

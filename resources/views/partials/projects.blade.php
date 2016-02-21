@@ -1,6 +1,6 @@
-<div class="layout__inner">
-	<div class="container-fluid">
-		<div class="col-sm-6">
+<div class="layout__inner layout__inner--dark">
+	<div id="LetUsHelpYou" class="container-fluid">
+		<div  class="col-sm-6">
 			<img src="../img/projects.jpg" alt=""></div>
 		<div class="col-sm-6">
 			<div class="projects__info">

@@ -1,0 +1,8 @@
+.customer_logos img{
+	height:50px;
+	width:auto;
+	@media all and (max-width:600px){
+		height:30px;
+		width:auto;	
+	}
+}
