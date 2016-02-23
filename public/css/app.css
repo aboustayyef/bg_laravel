@@ -877,10 +877,10 @@ p.lead {
   color: #98aff3;
   text-transform: uppercase; }
 
-.brand__poster {
+.brand__poster img {
   transition: opacity 0.5s;
   opacity: 1; }
-  .brand__poster:hover {
+  .brand__poster img:hover {
     opacity: 0.5; }
 
 .bgContact__h3 {
