@@ -30,7 +30,9 @@ Blue Gallery Home &amp; Office - Contemporary furniture in Ghana
     <div id="projects" class="section bgSection">
     	@include('partials.projects')
     </div>
-
+    <div id="about" class="section bgSection">
+        @include('partials.about')
+    </div>
     <div id="contact" class="section bgSection">
     	@include('partials.contacts')
     </div>

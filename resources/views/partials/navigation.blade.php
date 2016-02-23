@@ -12,8 +12,11 @@
 		<li menuanchor="projects" class="navigation__link">
 			<a class="navigation__item" href="#projects" onclick="ga('send', 'event', 'navigation', 'jump to' , 'Projects')">Projects</a>
 		</li>
+		<li menuanchor="about" class="navigation__link">
+			<a class="navigation__item" href="#about" onclick="ga('send', 'event', 'navigation', 'jump to' , 'About')">About</a>
+		</li>
 		<li menuanchor="contact" class="navigation__link">
-			<a class="navigation__item on-modal navigation--highlight" data-modal="contact-modal" href="#contact" onclick="ga('send', 'event', 'navigation', 'jump to' , 'Contact')">Contact Us</a>
+			<a class="navigation__item on-modal navigation--highlight" data-modal="contact-modal" href="#contact" onclick="ga('send', 'event', 'navigation', 'jump to' , 'Contact')">Contact&nbsp;Us</a>
 		</li>
 	</ul>
 </nav>
