@@ -7,6 +7,7 @@
 	<title>@yield('title')</title>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="/css/app.css?v=1.03">
+	<link rel="shortcut icon" href="{{asset('favicon.ico')}}" />
 </head>
 <body>
 	<!-- Google Analytics -->
