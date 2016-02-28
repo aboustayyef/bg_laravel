@@ -6,13 +6,14 @@
         </div>
         <div class="container-fluid">
         	<div class="col-md-12">
-        		<h2>Office Furniture At Blue Gallery</h2>
-        		<p class="lead">A small paragraph about the office furniture at Blue Gallery</p>
-        		<h3>Interstuhl</h3>
-        		<div class="thumbs clearfix">
-        			
-        		</div>
-        	</div>
+              <h2>Office Furniture At Blue Gallery</h2>
+              
+              <p class="lead">Interstuhl Swivel Chairs</p>
+              {!! (new ThumbSet('/img/furnitureThumbs/interstuhl-swivel/','vertical'))->render()!!}
+              
+              <p class="lead">Interstuhl Visitor Chairs</p>
+              {!! (new ThumbSet('/img/furnitureThumbs/interstuhl-visitors/','vertical'))->render()!!}
 
+            </div>
         </div>
 </div>

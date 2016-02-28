@@ -952,7 +952,6 @@ ul.social_media {
   background: #f2f2f2;
   max-width: 1640px;
   margin: auto;
-  transition: all 2s ease-in-out;
   z-index: 1000001; }
   .modalpage.active {
     display: block;
@@ -968,7 +967,10 @@ ul.social_media {
         bottom: 0; } }
 
 .closewindow {
-  float: right;
+  position: absolute;
+  z-index: 10000000;
+  right: 0;
+  top: 0;
   font-size: 60px;
   height: 60px;
   line-height: 60px;

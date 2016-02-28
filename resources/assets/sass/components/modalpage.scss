@@ -10,7 +10,6 @@
 	background:darken(white,5);
 	max-width:$bgMaxWidth - 40px;
 	margin:auto;
-	transition: all 2s ease-in-out;
 	&.active{
 		display:block;
 		top:60px;
@@ -30,7 +29,10 @@
 }
 
 .closewindow{
-	float: right;
+	position:absolute;
+	z-index:10000000;
+	right:0;
+	top:0;
     font-size: 60px;
     height: 60px;
     line-height: 60px;

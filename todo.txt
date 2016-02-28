@@ -13,7 +13,7 @@ TO DO :
 #-Big X for closing modal windows 
 # -In the CONTACT US section, change “on social media” to “other ways to get in touch” , Add Email icon that will open a link to send email
 -In the collection section, add pictures of furniture ( check zip files in previous emails ) , tip check http://www.ditreitalia.com/it_IT/divani_design/  for inspiration
--Create New Menu Item ( ABOUT ) which takes us to a new section between PROJECTS and CONTACTS, use Colored BG showroom picture, use same information as old website.
+#-Create New Menu Item ( ABOUT ) which takes us to a new section between PROJECTS and CONTACTS, use Colored BG showroom picture, use same information as old website.
 # -In the OUR CUSTOMERS section, change :”are we claiming too much? Our customers don’t think so” TO “Some of Ghana’s most admired companies trust our products”
 # -Customers section : Add Rana motors logo
 # -Customers section : Delete ALISA HOTELS & Interplast logos 
