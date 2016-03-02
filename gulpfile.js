@@ -19,6 +19,7 @@ elixir(function(mix) {
            "slides.js",
            "menu.js",
            "pages.js",
-           "modal.js"
+           "modal.js",
+           "lazyload.js",
        ]);
 });

@@ -934,12 +934,10 @@ ul.social_media {
     display: inline-block; }
 
 .customer_logos img {
-  height: 50px;
-  width: auto; }
+  height: 50px; }
   @media all and (max-width: 600px) {
     .customer_logos img {
-      height: 30px;
-      width: auto; } }
+      height: 30px; } }
 
 .modalpage {
   display: none;

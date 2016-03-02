@@ -52,9 +52,9 @@ class ThumbSet
 		
 		foreach ($this->files as $key => $filename) {
 			$html .= '<div class="' . $attribute . '">' . PHP_EOL;
-			$html .= '<a href="#" class="thumbnail">' . PHP_EOL;
+			$html .= '<div class="thumbnail">' . PHP_EOL;
 			$html .= '<img src="' . asset($this->folder) . '/' . $filename . '" alt="...">' . PHP_EOL;
-			$html .= '</a>' . PHP_EOL;
+			$html .= '</div>' . PHP_EOL;
 			$html .= '<h4>' . $this->nameFromFilename($filename) . '</h4>' . PHP_EOL;
 			$html .= '</div>' . PHP_EOL ;
 		}

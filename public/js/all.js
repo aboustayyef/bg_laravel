@@ -207,4 +207,9 @@ $(document).ready(function(){
 	});
 });
 
+$(document).ready(function(){
+	$('img.lazy').each(function(){
+		$(this).attr('src', $(this).data('src')).removeClass('lazy')
+	})
+})
 //# sourceMappingURL=all.js.map
