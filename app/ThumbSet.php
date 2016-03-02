@@ -67,6 +67,10 @@ class ThumbSet
 	Convert a filename like hello_sofa.jpg to a name like "Hello Sofa"
 	 */
 	function nameFromFilename($filename){
+
+		// truncate sorting number at the beginning
+		$filename = substr($filename,3);
+
 		// remove extension
 		$filename = explode('.', $filename)[0];
 		
