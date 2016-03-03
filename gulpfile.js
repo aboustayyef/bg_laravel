@@ -16,7 +16,7 @@ elixir(function(mix) {
     mix.scripts([
            "jquery-1.12.0.min.js",
            "backstretch-min.js",
-           "slides.js",
+           "flickity.js",
            "menu.js",
            "pages.js",
            "modal.js",
