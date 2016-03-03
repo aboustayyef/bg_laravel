@@ -12,7 +12,7 @@
       {!! (new ThumbSet('/img/furnitureThumbs/kosta_boda_vases/','vertical'))->render()!!}
 
       <p class="lead">Kosta Boda Dishes</p>
-      {!! (new ThumbSet('/img/furnitureThumbs/kosta_boda_dishes/','horizontal'))->render()!!}
+      {!! (new ThumbSet('/img/furnitureThumbs/kosta_boda_dishes/','square'))->render()!!}
 
      </div>
   </div>
