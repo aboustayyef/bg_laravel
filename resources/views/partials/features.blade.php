@@ -27,7 +27,7 @@
 			</div>
 			<div class="col-md-4">
 				<h3 class="bgFeature__h3">Made in Europe</h3>
-				<p>Italy, Germany and France are home to our world renowned exclusive brands.</p>
+				<p>Italy and Germany are home to our world renowned exclusive brands.</p>
 			</div>
 			<div class="col-md-4">
 				<h3 class="bgFeature__h3">Award Winning</h3>

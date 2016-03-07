@@ -826,6 +826,9 @@ p.lead {
   @media all and (max-width: 600px) {
     p.lead {
       font-size: 20px; } }
+  p.lead--noborders {
+    border-top: none;
+    border-bottom: none; }
 
 .bgSection {
   padding: 20px 0;
@@ -855,16 +858,13 @@ p.lead {
   border-top: none; }
 
 #LetUsHelpYou {
-  background-color: #3f3f3f; }
+  background-color: white; }
 
-.projects__info {
-  color: #1D1D1D;
-  padding: 20px 40px;
-  background: rgba(144, 144, 144, 0.7);
-  border: 1px solid black; }
+.projects__callout_image {
+  float: right;
+  border-radius: 50%; }
 
 .projects__h2 {
-  color: white;
   text-transform: uppercase; }
 
 .bgCollection__image {

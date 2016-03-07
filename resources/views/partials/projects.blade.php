@@ -1,11 +1,12 @@
-<div class="layout__inner layout__inner--dark">
+<div class="layout__inner">
 	<div id="LetUsHelpYou" class="container-fluid">
-		<div  class="col-sm-6">
-			<img src="../img/projects.jpg" alt=""></div>
-		<div class="col-sm-6">
+		<h2>Projects</h2>
+		<div  class="col-md-4">
+			<img class="projects__callout_image" src="../img/let_us_help_you.jpg" alt=""></div>
+		<div class="col-md-6">
 			<div class="projects__info">
 				<h2 class="projects__h2">Let Us Help You</h2>
-				<p class ="projects__p lead" style="color:black">
+				<p class ="projects__p lead lead--noborders" style="color:black">
 					At Blue Gallery, we work closely with clients to help create the most effective office space solution to meet their specific needs and expectations.
 				</p>
 				<p class ="projects__p">

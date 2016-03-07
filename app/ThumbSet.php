@@ -68,8 +68,10 @@ class ThumbSet
 	 */
 	function nameFromFilename($filename){
 
-		// truncate sorting number at the beginning
-		$filename = substr($filename,3);
+		// if filename starts with sorting numbers, truncate first three characters
+		if (preg_match("#^\d\d_#", $filename)) {
+			$filename = substr($filename,3); // example: 03_filename.jpg becomes filename.jpg
+		}
 
 		// remove extension
 		$filename = explode('.', $filename)[0];

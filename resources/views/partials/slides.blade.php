@@ -1,5 +1,5 @@
 <div class="slideshow__wrapper">
-	<div class="slideshow__slides js-flickity" data-flickity-options='{ "lazyLoad": true, "autoPlay": 5000 }'>
+	<div class="slideshow__slides js-flickity" data-flickity-options='{ "lazyLoad": true, "autoPlay": 5000, "wrapAround": true }'>
 		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/sanders_003.jpg">
 		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/reference_silver_088.jpg">
 		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/laptops-and-couch.jpg">
