@@ -5,15 +5,8 @@
             </div>
         </div>
         <div class="container-fluid">
-        	<div class="col-md-12">
-              <h2>Office Furniture At Blue Gallery</h2>
-              
-              <p class="lead">Interstuhl Swivel Chairs</p>
-              {!! (new ThumbSet('/img/furnitureThumbs/interstuhl-swivel/','vertical'))->render()!!}
-              
-              <p class="lead">Interstuhl Visitor Chairs</p>
-              {!! (new ThumbSet('/img/furnitureThumbs/interstuhl-visitors/','vertical'))->render()!!}
-
-            </div>
+	        <div id="page_content" class="col-md-12">
+				<h3>Loading...</h3>
+        	</div>
         </div>
 </div>

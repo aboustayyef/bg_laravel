@@ -1,15 +1,19 @@
+<?php
+	$all_slides = ["reference_silver_088.jpg", "laptops-and-couch.jpg", "kanaha_003.jpg", "miro-2.jpg", "morrison_00.jpg", "milieu_chefbuero.jpg", "interstuhl_ambient_yellow.jpg", "vista_74_75.jpg", "reference_airpad_01.jpg"];
+	$slides_to_show = array_rand($all_slides, 4);
+?>
+
 <div class="slideshow__wrapper">
 	<div class="slideshow__slides js-flickity" data-flickity-options='{ "lazyLoad": true, "autoPlay": 5000, "wrapAround": true }'>
+		
+		<!-- always start with sanders -->
 		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/sanders_003.jpg">
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/reference_silver_088.jpg">
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/laptops-and-couch.jpg">
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/kanaha_003.jpg">
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/miro-2.jpg">
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/morrison_00.jpg">
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/milieu_chefbuero.jpg">
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/interstuhl_ambient_yellow.jpg">
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/vista_74_75.jpg">
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/reference_airpad_01.jpg">
+		
+		<!-- pick random 4 from array; -->
+		@foreach ($slides_to_show as $slide_number)
+			<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/{{$all_slides[$slide_number]}}">
+		@endforeach
+
 	</div>
 
 	<div class="slideshow__info">

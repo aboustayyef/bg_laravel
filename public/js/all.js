@@ -5563,6 +5563,14 @@ $(document).ready(function(){
 			$('#'+ which_modal).addClass('active');
 			// Adjust window height to enable scrolling
 			$('.modalpage.active').outerHeight($(window).height() - 100 );
+
+			// fill modal data
+			$.ajax({
+			  url: '/ajax/' + which_modal,
+			  success: function(data){
+			  	$('.modalpage.active #page_content').html(data);
+			  },
+			});
 		};
 	}
 
