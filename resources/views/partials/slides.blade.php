@@ -3,7 +3,7 @@
 	$slides_to_show = array_rand($all_slides, 4);
 ?>
 
-<div class="slideshow__wrapper" data-slide-0="sanders_003.jpg" @foreach ($slides_to_show as $i => $slide_number) data-slide-{{$i}}="{{$all_slides[$slide_number]}}" @endforeach>
+<div class="slideshow__wrapper lazy_bg" data-src='/img/slides/sanders_003.jpg'>
 
 	<div class="slideshow__info">
 		<div class="layout__inner">

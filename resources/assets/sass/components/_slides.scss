@@ -4,6 +4,8 @@
 	background-color: $background-color;
 	margin:0 auto;
 	position:relative;
+	background-size:cover;
+	transition: background 1s linear;
 }
 
 .slideshow__info{

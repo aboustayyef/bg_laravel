@@ -15,8 +15,7 @@ elixir(function(mix) {
     mix.sass('app.scss');
     mix.scripts([
            "jquery-1.12.0.min.js",
-           "backstretch-min.js",
-           "flickity.js",
+           "slides.js",
            "menu.js",
            "pages.js",
            "modal.js",
