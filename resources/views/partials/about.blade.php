@@ -7,7 +7,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-2">
-			<img src="/img/bg_square_logo.png" style="margin-top:23px" alt="">
+			<div class="about_us lazy_bg" data-src="/img/bg_square_logo.png" alt=""></div>
 		</div>
 		<div class="col-md-8">
 			<p>Blue Gallery is Ghana’s destination for premium Home and office furniture.We carefully select Europe’s leading brands and display them in our spacious showrooms.We believe that our customers deserves modern,tasteful and durable furniture.</p>

@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+$background-color: #ededed;
+
 // app
 @import "components/variables";
 @import "components/bootstrap_grid";
@@ -28,5 +30,6 @@
 @import "components/modalpage";
 @import "components/utilities";
 @import "components/buttons";
+@import "components/about_us";
 
 @import "components/flickity";

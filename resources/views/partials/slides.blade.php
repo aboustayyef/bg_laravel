@@ -3,18 +3,7 @@
 	$slides_to_show = array_rand($all_slides, 4);
 ?>
 
-<div class="slideshow__wrapper">
-	<div class="slideshow__slides js-flickity" data-flickity-options='{ "lazyLoad": true, "autoPlay": 5000, "wrapAround": true }'>
-		
-		<!-- always start with sanders -->
-		<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/sanders_003.jpg">
-		
-		<!-- pick random 4 from array; -->
-		@foreach ($slides_to_show as $slide_number)
-			<img src="/img/slides/placeholder_slide.gif" data-flickity-lazyload="/img/slides/{{$all_slides[$slide_number]}}">
-		@endforeach
-
-	</div>
+<div class="slideshow__wrapper" data-slide-0="sanders_003.jpg" @foreach ($slides_to_show as $i => $slide_number) data-slide-{{$i}}="{{$all_slides[$slide_number]}}" @endforeach>
 
 	<div class="slideshow__info">
 		<div class="layout__inner">

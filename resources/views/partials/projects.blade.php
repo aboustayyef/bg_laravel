@@ -2,7 +2,7 @@
 	<div id="LetUsHelpYou" class="container-fluid">
 		<h2>Projects</h2>
 		<div  class="col-md-4">
-			<img class="projects__callout_image" src="../img/let_us_help_you.jpg" alt=""></div>
+			<img class="projects__callout_image lazy" src="/img/grey.gif" height="279" width="279" data-src="../img/let_us_help_you.jpg" alt=""></div>
 		<div class="col-md-6">
 			<div class="projects__info">
 				<h2 class="projects__h2">Let Us Help You</h2>

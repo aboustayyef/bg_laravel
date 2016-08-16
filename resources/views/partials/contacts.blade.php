@@ -10,7 +10,7 @@
 				<h3 class="bgContact__h3">Tema</h3>
 				<p><strong>Business Hours:</strong> Mon-Fri 8:30-17:00 Sat 10:00-17:00 Sunday Closed</p>
 				<div class="bgContact__captionWrapper">
-					<img src="img/bluegallery-showroom-tema.jpg" width="100%" alt="">
+					<div class="lazy_bg contact_image" data-src="img/bluegallery-showroom-tema.jpg" width="100%" alt=""></div>
 					<div class="bgContact__caption bgContact__caption--light">
 						<p class="bgContact__address">Aflao Road, Opposite Shell station</p>
 						<ul class="bgContact__buttonList">
@@ -26,7 +26,7 @@
 				<h3 class="bgContact__h3">Accra</h3>
 				<p><strong>Business Hours:</strong> Mon-Sun 9:00-21:00</p>
 				<div class="bgContact__captionWrapper">
-					<img src="img/max-mart.jpg" width="100%" alt="">
+					<div class="lazy_bg contact_image" data-src="img/max-mart.jpg" width="100%" alt=""></div>
 					<div class="bgContact__caption bgContact__caption--light">
 						<p class="bgContact__address">Maxmart Shopping Mall, 37 street</p>
 						<ul class="bgContact__buttonList">
@@ -47,23 +47,23 @@
 			<ul class="social_media">
 				<li>
 					<a href="mailto:bluegalleryghana@gmail.com">
-						<img src="img/socialmediaicons/email.png" alt="Email Blue Gallery" onclick="ga('send', 'event', 'exit link', 'social media' , 'email')"></a>
+						<img class="lazy" src="/img/grey.gif" width="44" height="44" data-src="img/socialmediaicons/email.png" alt="Email Blue Gallery" onclick="ga('send', 'event', 'exit link', 'social media' , 'email')"></a>
 				</li>
 				<li>
 					<a href="https://facebook.com/blue.gallery.ghana">
-						<img src="img/socialmediaicons/facebook.png" alt="Blue Gallery on Facebook" onclick="ga('send', 'event', 'exit link', 'social media' , 'facebook')"></a>
+						<img class="lazy" src="/img/grey.gif" width="44" height="44" data-src="img/socialmediaicons/facebook.png" alt="Blue Gallery on Facebook" onclick="ga('send', 'event', 'exit link', 'social media' , 'facebook')"></a>
 				</li>
 				<li>
 					<a href="https://pinterest.com/bluegallery">
-						<img src="img/socialmediaicons/pinterest.png" alt="Blue Gallery on Pinterest" onclick="ga('send', 'event', 'exit link', 'social media' , 'pinterest')"></a>
+						<img class="lazy" src="/img/grey.gif" width="44" height="44" data-src="img/socialmediaicons/pinterest.png" alt="Blue Gallery on Pinterest" onclick="ga('send', 'event', 'exit link', 'social media' , 'pinterest')"></a>
 				</li>
 				<li>
 					<a href="https://twitter.com/blue_gallery">
-						<img src="img/socialmediaicons/twitter.png" alt="Blue Gallery on Twitter" onclick="ga('send', 'event', 'exit link', 'social media' , 'twitter')"></a>
+						<img class="lazy" src="/img/grey.gif" width="44" height="44" data-src="img/socialmediaicons/twitter.png" alt="Blue Gallery on Twitter" onclick="ga('send', 'event', 'exit link', 'social media' , 'twitter')"></a>
 				</li>
 				<li>
 					<a href="https://instagram.com/bluegallery_ghana">
-						<img src="img/socialmediaicons/instagram.png" alt="Blue Gallery on Instagram" onclick="ga('send', 'event', 'exit link', 'social media' , 'instagram')"></a>
+						<img class="lazy" src="/img/grey.gif" width="44" height="44" data-src="img/socialmediaicons/instagram.png" alt="Blue Gallery on Instagram" onclick="ga('send', 'event', 'exit link', 'social media' , 'instagram')"></a>
 				</li>
 			</ul>
 		</div>
