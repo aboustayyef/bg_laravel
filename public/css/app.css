@@ -728,7 +728,7 @@ body {
       background: none;
       border: none; }
     .navigation__link.header__logo {
-      background: url("../img/bg_logo.png") no-repeat;
+      background: url("../img/bg_logo.svg") no-repeat;
       background-repeat: no-repeat;
       background-size: 250px 57px;
       border: none; }
