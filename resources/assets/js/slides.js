@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var fullSlides = [
 		"/img/slides/reference_silver_088.jpg",
 		"/img/slides/laptops-and-couch.jpg",
-		"/img/slides/kanaha_003.jpg",
+		"/img/slides/sanders_Letto_001.jpg",
 		"/img/slides/miro-2.jpg",
 		"/img/slides/morrison_00.jpg",
 		"/img/slides/milieu_chefbuero.jpg",

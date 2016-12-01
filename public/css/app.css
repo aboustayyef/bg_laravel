@@ -598,13 +598,10 @@ body {
 .header__wrapper {
   background-color: white;
   margin: 0 auto;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
@@ -614,7 +611,6 @@ body {
   background: url("../img/bg_logo.svg") no-repeat;
   background-repeat: no-repeat;
   background-size: 250px 57px;
-  -webkit-flex-basis: 300px;
   -ms-flex-preferred-size: 300px;
   flex-basis: 300px; }
   @media all and (max-width: 400px) {
@@ -641,16 +637,12 @@ body {
 
 .navigation {
   width: calc(100% - 350px);
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  -webkit-flex-basis: 450px;
   -ms-flex-preferred-size: 450px;
   flex-basis: 450px; }
 
@@ -661,10 +653,8 @@ body {
     color: silver; }
 
 .navigation__list {
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0; }
@@ -695,17 +685,13 @@ body {
     right: 0;
     transition: all 0.3s; }
     .navigation.active {
-      -webkit-transform: translate3d(2000px, 0, 0);
       transform: translate3d(2000px, 0, 0); }
   .navigation__list {
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 0;
-    -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start; }
   .navigation__item {
@@ -999,13 +985,10 @@ body.noscroll .page__shroud {
   display: block; }
 
 .utility__verticenter {
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
@@ -1099,11 +1082,9 @@ http://flickity.metafizzy.co
 
 .flickity-enabled.is-draggable .flickity-viewport {
   cursor: move;
-  cursor: -webkit-grab;
   cursor: grab; }
 
 .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
-  cursor: -webkit-grabbing;
   cursor: grabbing; }
 
 /* ---- previous/next buttons ---- */
@@ -1118,7 +1099,6 @@ http://flickity.metafizzy.co
   background: rgba(255, 255, 255, 0.75);
   cursor: pointer;
   /* vertically center */
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 .flickity-prev-next-button:hover {
