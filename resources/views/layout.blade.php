@@ -30,7 +30,7 @@
 	@yield('content')
 	
 	<!-- Custom App -->
-	<script src="/js/all.js?v=1.01"></script>
+	<script src="/js/all.js?v=1.02"></script>
 
 </body>
 </html>
