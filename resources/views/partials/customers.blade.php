@@ -24,6 +24,15 @@
 			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/queiroz.png" width="144" height="50">
 			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/vitol.png" alt="" width="171" height="50">
 			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/vra.jpg" alt="" width="166" height="50">
+			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/imperialhomes.jpg" alt="" width="214" height="50">
+			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/movis.jpg" alt="" width="134" height="50">
+			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/voltic.jpg" alt="" width="106" height="50">
+			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/agility.jpg" alt="" width="145" height="50">
+			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/ghanagas.jpg" alt="" width="88" height="50">
+			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/japanmotors.jpg" alt="" width="210" height="50">
+			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/ericsson.jpg" alt="" width="174" height="50">
+			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/swissport.jpg" alt="" width="174" height="50">
+			<img class="lazy" src="/img/grey.gif" data-src="/img/customerslogos/mantrac.jpg" alt="" width="180" height="50">
 		</div>
 	</div>
 </div>
