@@ -20,7 +20,8 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-6">
-				<a href="http://http://www.aranworld.it/" target="_blank" onclick="ga('send', 'event', 'exit link', 'suppliers website' , 'Newform')" >
+<<<<<<< HEAD
+				<a href="http://www.aranworld.it/" target="_blank" onclick="ga('send', 'event', 'exit link', 'suppliers website' , 'Newform')" >
 					<div class="brand__poster lazy_bg" data-src="img/brands/newform.jpg"></div>
 				</a>
 			</div>
