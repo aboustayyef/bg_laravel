@@ -1,35 +1,147 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// Flickity
+@import "flickity";
 
-// box sizing
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+$primary: #98aff3;
+
+// bulma
+@import "node_modules/bulma/bulma";
+
+
+
+// organize later
+body, html{
+  min-height:100%;
 }
 
-$background-color: #ededed;
+body{
+  padding-top:1em;
+  font-family:"Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  background:#333;
+}
 
-// app
-@import "components/variables";
-@import "components/bootstrap_grid";
-@import "components/layout";
-@import "components/header";
-@import "components/navigation";
-@import "components/navigation_mobile";
-@import "components/footer";
+// Full Page
+.pageWrapper{
+  position:relative;
+  min-height: 100%;
+  width:100%;
+  padding:0;
+  max-width:1680px;
+  margin:0 auto;
 
-@import "components/slides";
-@import "components/features";
-@import "components/typography";
-@import "components/sections";
-@import "components/projects";
-@import "components/collection";
-@import "components/brands";
-@import "components/contact";
-@import "components/customers";
-@import "components/modalpage";
-@import "components/utilities";
-@import "components/buttons";
-@import "components/about_us";
+}
 
-@import "components/flickity";
+// Slogan
+#slogan{
+  position: absolute;
+  z-index: 199;
+  width: 100%;
+  padding-bottom:2em;
+}
+
+@media all and (max-width: $tablet){
+  #slogan{
+    position:inherit;
+    z-index:1;
+  }
+}
+
+.slogan__wrapper{
+  padding-top:2.5em;
+  color: white;
+  text-shadow:1px 1px 1px #444;;
+  padding-left:12px;
+}
+
+.slogan__title{
+  font-weight:bold;
+  font-size: 2.3em;
+  line-height: 1;
+}
+.slogan__subtitle{
+  font-weight:bold;
+  font-size: 1.3rem;
+  color: #e6e6e6;
+}
+
+.section__title{
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+.section__subtitle{
+  color: #444;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 5px 0;
+  margin-top:15px;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.section__lead{
+  color: #444;
+  padding: 5px 0;
+  margin-top:15px;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.3;
+}
+
+.section__header{
+  margin:1em 0;
+  color: $primary;
+  font-weight:600;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+// Overriding Bulma Nav Dimensions
+
+.nav-item img{
+	max-height:inherit;
+}
+
+.nav{
+	height:99px;
+}
+
+// Carousel
+
+.carousel-bg-image {
+    width: 100%;
+    padding-bottom: 48%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:#e1e1e1;
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 20px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+// Cards
+.card__collection{
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.thumb__card{
+  width:250px;
+  margin: 0 1em 1em 0;
+}
+
