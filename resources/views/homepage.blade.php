@@ -8,4 +8,8 @@ Blue Gallery Home &amp; Office - Collection
 	@include('homepage.slogan')
 	@include('homepage.slideshow')
 	@include('homepage.why')
+	@include('homepage.ourcustomers')
+	<div id="brands">
+		<h1>BRANDS</h1>
+	</div>
 @stop

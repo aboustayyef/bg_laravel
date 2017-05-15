@@ -22,6 +22,7 @@
     "bulma": "^0.4.1",
     "flickity": "^2.0.5",
     "flickity-bg-lazyload": "^1.0.0",
-    "flickity-imagesloaded": "^2.0.0"
+    "flickity-imagesloaded": "^2.0.0",
+    "smoothscroll-polyfill": "^0.3.5"
   }
 }

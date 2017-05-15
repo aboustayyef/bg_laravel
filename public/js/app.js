@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 24);
+/******/ 	return __webpack_require__(__webpack_require__.s = 28);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -84,7 +84,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
   if ( true ) {
     // AMD
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-      __webpack_require__(8)
+      __webpack_require__(11)
     ], __WEBPACK_AMD_DEFINE_RESULT__ = function( matchesSelector ) {
       return factory( window, matchesSelector );
     }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -325,9 +325,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Flickity main
       __webpack_require__(2),
       __webpack_require__(4),
       __webpack_require__(0),
-      __webpack_require__(13),
-      __webpack_require__(19),
-      __webpack_require__(12)
+      __webpack_require__(16),
+      __webpack_require__(22),
+      __webpack_require__(15)
     ], __WEBPACK_AMD_DEFINE_RESULT__ = function( EvEmitter, getSize, utils, Cell, Slide, animatePrototype ) {
       return factory( window, EvEmitter, getSize, utils, Cell, Slide, animatePrototype );
     }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -1309,12 +1309,12 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
     // AMD
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
       __webpack_require__(1),
-      __webpack_require__(14),
-      __webpack_require__(18),
-      __webpack_require__(16),
       __webpack_require__(17),
-      __webpack_require__(11),
-      __webpack_require__(15)
+      __webpack_require__(21),
+      __webpack_require__(19),
+      __webpack_require__(20),
+      __webpack_require__(14),
+      __webpack_require__(18)
     ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
@@ -1573,7 +1573,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   if ( true ) {
     // AMD
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-      __webpack_require__(23)
+      __webpack_require__(27)
     ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Unipointer ) {
       return factory( window, Unipointer );
     }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -1678,8 +1678,11 @@ return TapListener;
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(28);
-__webpack_require__(29);
+__webpack_require__(8);
+__webpack_require__(24).polyfill();
+
+__webpack_require__(9);
+__webpack_require__(10);
 
 // Stuff that comes with laravel. commented all.
 
@@ -1713,6 +1716,72 @@ __webpack_require__(29);
 
 /***/ }),
 /* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Flickity
+var Flickity = __webpack_require__(13);
+__webpack_require__(12);
+
+var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity(elem, {
+	// options
+	cellAlign: 'left',
+	imagesLoaded: true,
+	autoPlay: true,
+	bgLazyLoad: 2,
+	contain: true,
+	selectedAttraction: 0.015,
+	wrapAround: true
+});
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports) {
+
+var toggleButton = document.getElementsByClassName('nav-toggle')[0];
+var navMenu = document.getElementsByClassName('nav-menu')[0];
+toggleButton.addEventListener('click', function (e) {
+	toggleButton.classList.toggle('is-active');
+	navMenu.classList.toggle('is-active');
+});
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports) {
+
+var scrollableMenuitems = document.getElementsByClassName('sectionscroll');
+var _iteratorNormalCompletion = true;
+var _didIteratorError = false;
+var _iteratorError = undefined;
+
+try {
+  for (var _iterator = scrollableMenuitems[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+    var item = _step.value;
+
+    item.addEventListener('click', function (e) {
+      var tgt = e.target.dataset.dest;
+
+      // scroll to destination
+      document.querySelector(tgt).scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+} catch (err) {
+  _didIteratorError = true;
+  _iteratorError = err;
+} finally {
+  try {
+    if (!_iteratorNormalCompletion && _iterator.return) {
+      _iterator.return();
+    }
+  } finally {
+    if (_didIteratorError) {
+      throw _iteratorError;
+    }
+  }
+}
+
+/***/ }),
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -1775,7 +1844,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 9 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -1903,7 +1972,7 @@ return Flickity;
 
 
 /***/ }),
-/* 10 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -1920,7 +1989,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
     // AMD
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
       __webpack_require__(3),
-      __webpack_require__(20)
+      __webpack_require__(23)
     ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, imagesLoaded ) {
       return factory( window, Flickity, imagesLoaded );
     }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -1973,7 +2042,7 @@ return Flickity;
 
 
 /***/ }),
-/* 11 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// add, remove cell
@@ -2162,7 +2231,7 @@ return Flickity;
 
 
 /***/ }),
-/* 12 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// animate
@@ -2388,7 +2457,7 @@ return proto;
 
 
 /***/ }),
-/* 13 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Flickity.Cell
@@ -2485,7 +2554,7 @@ return Cell;
 
 
 /***/ }),
-/* 14 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// drag
@@ -2496,7 +2565,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// drag
     // AMD
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
       __webpack_require__(1),
-      __webpack_require__(22),
+      __webpack_require__(26),
       __webpack_require__(0)
     ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, Unidragger, utils ) {
       return factory( window, Flickity, Unidragger, utils );
@@ -2876,7 +2945,7 @@ return Flickity;
 
 
 /***/ }),
-/* 15 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// lazyload
@@ -3002,7 +3071,7 @@ return Flickity;
 
 
 /***/ }),
-/* 16 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// page dots
@@ -3187,7 +3256,7 @@ return Flickity;
 
 
 /***/ }),
-/* 17 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// player & autoPlay
@@ -3407,7 +3476,7 @@ return Flickity;
 
 
 /***/ }),
-/* 18 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// prev/next buttons
@@ -3634,7 +3703,7 @@ return Flickity;
 
 
 /***/ }),
-/* 19 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;// slide
@@ -3720,7 +3789,7 @@ return Slide;
 
 
 /***/ }),
-/* 20 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -4097,7 +4166,333 @@ return ImagesLoaded;
 
 
 /***/ }),
-/* 21 */
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+ * smoothscroll polyfill - v0.3.5
+ * https://iamdustan.github.io/smoothscroll
+ * 2016 (c) Dustan Kasten, Jeremias Menichelli - MIT License
+ */
+
+(function(w, d, undefined) {
+  'use strict';
+
+  /*
+   * aliases
+   * w: window global object
+   * d: document
+   * undefined: undefined
+   */
+
+  // polyfill
+  function polyfill() {
+    // return when scrollBehavior interface is supported
+    if ('scrollBehavior' in d.documentElement.style) {
+      return;
+    }
+
+    /*
+     * globals
+     */
+    var Element = w.HTMLElement || w.Element;
+    var SCROLL_TIME = 468;
+
+    /*
+     * object gathering original scroll methods
+     */
+    var original = {
+      scroll: w.scroll || w.scrollTo,
+      scrollBy: w.scrollBy,
+      elScroll: Element.prototype.scroll || scrollElement,
+      scrollIntoView: Element.prototype.scrollIntoView
+    };
+
+    /*
+     * define timing method
+     */
+    var now = w.performance && w.performance.now
+      ? w.performance.now.bind(w.performance) : Date.now;
+
+    /**
+     * changes scroll position inside an element
+     * @method scrollElement
+     * @param {Number} x
+     * @param {Number} y
+     */
+    function scrollElement(x, y) {
+      this.scrollLeft = x;
+      this.scrollTop = y;
+    }
+
+    /**
+     * returns result of applying ease math function to a number
+     * @method ease
+     * @param {Number} k
+     * @returns {Number}
+     */
+    function ease(k) {
+      return 0.5 * (1 - Math.cos(Math.PI * k));
+    }
+
+    /**
+     * indicates if a smooth behavior should be applied
+     * @method shouldBailOut
+     * @param {Number|Object} x
+     * @returns {Boolean}
+     */
+    function shouldBailOut(x) {
+      if (typeof x !== 'object'
+            || x === null
+            || x.behavior === undefined
+            || x.behavior === 'auto'
+            || x.behavior === 'instant') {
+        // first arg not an object/null
+        // or behavior is auto, instant or undefined
+        return true;
+      }
+
+      if (typeof x === 'object'
+            && x.behavior === 'smooth') {
+        // first argument is an object and behavior is smooth
+        return false;
+      }
+
+      // throw error when behavior is not supported
+      throw new TypeError('behavior not valid');
+    }
+
+    /**
+     * finds scrollable parent of an element
+     * @method findScrollableParent
+     * @param {Node} el
+     * @returns {Node} el
+     */
+    function findScrollableParent(el) {
+      var isBody;
+      var hasScrollableSpace;
+      var hasVisibleOverflow;
+
+      do {
+        el = el.parentNode;
+
+        // set condition variables
+        isBody = el === d.body;
+        hasScrollableSpace =
+          el.clientHeight < el.scrollHeight ||
+          el.clientWidth < el.scrollWidth;
+        hasVisibleOverflow =
+          w.getComputedStyle(el, null).overflow === 'visible';
+      } while (!isBody && !(hasScrollableSpace && !hasVisibleOverflow));
+
+      isBody = hasScrollableSpace = hasVisibleOverflow = null;
+
+      return el;
+    }
+
+    /**
+     * self invoked function that, given a context, steps through scrolling
+     * @method step
+     * @param {Object} context
+     */
+    function step(context) {
+      var time = now();
+      var value;
+      var currentX;
+      var currentY;
+      var elapsed = (time - context.startTime) / SCROLL_TIME;
+
+      // avoid elapsed times higher than one
+      elapsed = elapsed > 1 ? 1 : elapsed;
+
+      // apply easing to elapsed time
+      value = ease(elapsed);
+
+      currentX = context.startX + (context.x - context.startX) * value;
+      currentY = context.startY + (context.y - context.startY) * value;
+
+      context.method.call(context.scrollable, currentX, currentY);
+
+      // scroll more if we have not reached our destination
+      if (currentX !== context.x || currentY !== context.y) {
+        w.requestAnimationFrame(step.bind(w, context));
+      }
+    }
+
+    /**
+     * scrolls window with a smooth behavior
+     * @method smoothScroll
+     * @param {Object|Node} el
+     * @param {Number} x
+     * @param {Number} y
+     */
+    function smoothScroll(el, x, y) {
+      var scrollable;
+      var startX;
+      var startY;
+      var method;
+      var startTime = now();
+
+      // define scroll context
+      if (el === d.body) {
+        scrollable = w;
+        startX = w.scrollX || w.pageXOffset;
+        startY = w.scrollY || w.pageYOffset;
+        method = original.scroll;
+      } else {
+        scrollable = el;
+        startX = el.scrollLeft;
+        startY = el.scrollTop;
+        method = scrollElement;
+      }
+
+      // scroll looping over a frame
+      step({
+        scrollable: scrollable,
+        method: method,
+        startTime: startTime,
+        startX: startX,
+        startY: startY,
+        x: x,
+        y: y
+      });
+    }
+
+    /*
+     * ORIGINAL METHODS OVERRIDES
+     */
+
+    // w.scroll and w.scrollTo
+    w.scroll = w.scrollTo = function() {
+      // avoid smooth behavior if not required
+      if (shouldBailOut(arguments[0])) {
+        original.scroll.call(
+          w,
+          arguments[0].left || arguments[0],
+          arguments[0].top || arguments[1]
+        );
+        return;
+      }
+
+      // LET THE SMOOTHNESS BEGIN!
+      smoothScroll.call(
+        w,
+        d.body,
+        ~~arguments[0].left,
+        ~~arguments[0].top
+      );
+    };
+
+    // w.scrollBy
+    w.scrollBy = function() {
+      // avoid smooth behavior if not required
+      if (shouldBailOut(arguments[0])) {
+        original.scrollBy.call(
+          w,
+          arguments[0].left || arguments[0],
+          arguments[0].top || arguments[1]
+        );
+        return;
+      }
+
+      // LET THE SMOOTHNESS BEGIN!
+      smoothScroll.call(
+        w,
+        d.body,
+        ~~arguments[0].left + (w.scrollX || w.pageXOffset),
+        ~~arguments[0].top + (w.scrollY || w.pageYOffset)
+      );
+    };
+
+    // Element.prototype.scroll and Element.prototype.scrollTo
+    Element.prototype.scroll = Element.prototype.scrollTo = function() {
+      // avoid smooth behavior if not required
+      if (shouldBailOut(arguments[0])) {
+        original.elScroll.call(
+            this,
+            arguments[0].left || arguments[0],
+            arguments[0].top || arguments[1]
+        );
+        return;
+      }
+
+      // LET THE SMOOTHNESS BEGIN!
+      smoothScroll.call(
+          this,
+          this,
+          arguments[0].left,
+          arguments[0].top
+      );
+    };
+
+    // Element.prototype.scrollBy
+    Element.prototype.scrollBy = function() {
+      var arg0 = arguments[0];
+
+      if (typeof arg0 === 'object') {
+        this.scroll({
+          left: arg0.left + this.scrollLeft,
+          top: arg0.top + this.scrollTop,
+          behavior: arg0.behavior
+        });
+      } else {
+        this.scroll(
+          this.scrollLeft + arg0,
+          this.scrollTop + arguments[1]
+        );
+      }
+    };
+
+    // Element.prototype.scrollIntoView
+    Element.prototype.scrollIntoView = function() {
+      // avoid smooth behavior if not required
+      if (shouldBailOut(arguments[0])) {
+        original.scrollIntoView.call(this, arguments[0] || true);
+        return;
+      }
+
+      // LET THE SMOOTHNESS BEGIN!
+      var scrollableParent = findScrollableParent(this);
+      var parentRects = scrollableParent.getBoundingClientRect();
+      var clientRects = this.getBoundingClientRect();
+
+      if (scrollableParent !== d.body) {
+        // reveal element inside parent
+        smoothScroll.call(
+          this,
+          scrollableParent,
+          scrollableParent.scrollLeft + clientRects.left - parentRects.left,
+          scrollableParent.scrollTop + clientRects.top - parentRects.top
+        );
+        // reveal parent in viewport
+        w.scrollBy({
+          left: parentRects.left,
+          top: parentRects.top,
+          behavior: 'smooth'
+        });
+      } else {
+        // reveal element in viewport
+        w.scrollBy({
+          left: clientRects.left,
+          top: clientRects.top,
+          behavior: 'smooth'
+        });
+      }
+    };
+  }
+
+  if (true) {
+    // commonjs
+    module.exports = { polyfill: polyfill };
+  } else {
+    // global
+    polyfill();
+  }
+})(window, document);
+
+
+/***/ }),
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -4407,7 +4802,7 @@ return Unipointer;
 
 
 /***/ }),
-/* 22 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -4425,7 +4820,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   if ( true ) {
     // AMD
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-      __webpack_require__(21)
+      __webpack_require__(25)
     ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Unipointer ) {
       return factory( window, Unipointer );
     }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -4698,7 +5093,7 @@ return Unidragger;
 
 
 /***/ }),
-/* 23 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -5000,46 +5395,12 @@ return Unipointer;
 
 
 /***/ }),
-/* 24 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(6);
 module.exports = __webpack_require__(7);
 
-
-/***/ }),
-/* 25 */,
-/* 26 */,
-/* 27 */,
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Flickity
-var Flickity = __webpack_require__(10);
-__webpack_require__(9);
-
-var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity(elem, {
-	// options
-	cellAlign: 'left',
-	imagesLoaded: true,
-	autoPlay: true,
-	bgLazyLoad: 2,
-	contain: true,
-	selectedAttraction: 0.015,
-	wrapAround: true
-});
-
-/***/ }),
-/* 29 */
-/***/ (function(module, exports) {
-
-var toggleButton = document.getElementsByClassName('nav-toggle')[0];
-var navMenu = document.getElementsByClassName('nav-menu')[0];
-toggleButton.addEventListener('click', function (e) {
-	toggleButton.classList.toggle('is-active');
-	navMenu.classList.toggle('is-active');
-});
 
 /***/ })
 /******/ ]);
