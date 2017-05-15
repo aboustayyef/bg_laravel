@@ -68,6 +68,10 @@ body{
   font-weight:bold;
 }
 
+.section__give_space{
+  margin: 2em 0;
+}
+
 .section__subtitle{
   color: #444;
   border-top: 1px solid #e2e2e2;
@@ -143,5 +147,6 @@ body{
 .thumb__card{
   width:250px;
   margin: 0 1em 1em 0;
+  box-shadow: inherit;
 }
 
