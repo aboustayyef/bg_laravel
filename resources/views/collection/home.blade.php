@@ -5,6 +5,8 @@ Blue Gallery Home &amp; Office - Collection
 @stop
 
 @section('content')
+<div class="pageWrapper" style="margin-top:-99px">
+
 	<style type="text/css">
 		.header-image {
 			   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.89)),url(http://bluegallery.dev/img/slides/laptops-and-couch.jpg);
@@ -12,7 +14,36 @@ Blue Gallery Home &amp; Office - Collection
 			   background-image: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.89)),url(http://bluegallery.dev/img/slides/laptops-and-couch.jpg);
 			}
 	</style>
-<section class="hero is-medium is-primary header-image">
+<section class="hero  is-primary  is-medium header-image">
+	<div class="hero-head">
+      <header class="nav">
+        <div class="container">
+          <div class="nav-left">
+            <a class="nav-item" href="/">
+              <img src="/img/bg_logo_inverse.svg" width="260px"  alt="Logo">
+            </a>
+          </div>
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="nav-right nav-menu">
+            <a class="nav-item is-active" href="/">
+              Home Page
+            </a>
+            <span class="nav-item">
+              <a class="button is-info is-outlined is-inverted">
+                <span class="icon">
+                  <i class="fa fa-mobile"></i>
+                </span>
+                <span>Contact Us</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </header>
+    </div>
 	<div class="hero-body">
 		<div class="container">
 			<h1 class="title">
@@ -119,4 +150,5 @@ Blue Gallery Home &amp; Office - Collection
 
 	</div>
 </section>
+</div> <!-- /pagewrapper -->
 @stop

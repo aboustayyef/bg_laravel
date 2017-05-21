@@ -14,10 +14,45 @@ body, html{
 }
 
 body{
-  padding-top:1em;
+  padding-top:99px;
   font-family:"Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   background:#333;
 }
+
+.slideshow__button{
+  color: white;
+  text-decoration: none;
+  display: inline;
+  padding: 10px 15px;
+  border: 1px solid white;
+  font-size: 1.4rem;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.socialmedia__circle{
+  display:inline-block;
+  padding: 1em;
+  background:black;
+  color:white;
+  border-radius: 50%;
+}
+
+.is-circle img{
+  border-radius: 50%
+}
+
+.nav{
+  height:99px;
+}
+
+// Make fixed nav
+.nav__modified { 
+  position: fixed !important;
+  top: 0; left: 0; right: 0;  
+  width:100%;
+  max-width:1680px;
+  margin:auto;
+ }
 
 // Full Page
 .pageWrapper{
@@ -28,6 +63,11 @@ body{
   max-width:1680px;
   margin:0 auto;
 
+}
+
+.bump{ // to fix issue where scrolling in mobile puts section header behind fixed navigation bar
+    margin-top:-155px;
+    padding-top:155px;
 }
 
 .bg__section{
@@ -42,7 +82,7 @@ body{
 // Slogan
 #slogan{
   position: absolute;
-  z-index: 199;
+  z-index: 1;
   width: 100%;
   padding-bottom:2em;
 }
@@ -113,10 +153,6 @@ body{
 
 .nav-item img{
 	max-height:inherit;
-}
-
-.nav{
-	height:99px;
 }
 
 // Carousel

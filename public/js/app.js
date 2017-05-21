@@ -1678,10 +1678,10 @@ return TapListener;
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(8);
+__webpack_require__(9);
 __webpack_require__(24).polyfill();
 
-__webpack_require__(9);
+__webpack_require__(8);
 __webpack_require__(10);
 
 // Stuff that comes with laravel. commented all.
@@ -1716,6 +1716,29 @@ __webpack_require__(10);
 
 /***/ }),
 /* 8 */
+/***/ (function(module, exports) {
+
+window.bg_menu = {
+	toggleButton: document.getElementsByClassName('nav-toggle')[0],
+	navMenu: document.getElementsByClassName('nav-menu')[0],
+
+	toggle: function toggle() {
+		this.toggleButton.classList.toggle('is-active');
+		this.navMenu.classList.toggle('is-active');
+	},
+
+	turnoff: function turnoff() {
+		this.toggleButton.classList.remove('is-active');
+		this.navMenu.classList.remove('is-active');
+	}
+};
+
+bg_menu.toggleButton.addEventListener('click', function (e) {
+	bg_menu.toggle();
+});
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Flickity
@@ -1735,21 +1758,16 @@ var flkty = new Flickity(elem, {
 });
 
 /***/ }),
-/* 9 */
-/***/ (function(module, exports) {
-
-var toggleButton = document.getElementsByClassName('nav-toggle')[0];
-var navMenu = document.getElementsByClassName('nav-menu')[0];
-toggleButton.addEventListener('click', function (e) {
-	toggleButton.classList.toggle('is-active');
-	navMenu.classList.toggle('is-active');
-});
-
-/***/ }),
 /* 10 */
 /***/ (function(module, exports) {
 
+// Choose Nav elements which have scrolling behavior
+// They are given the class 'sectionscroll'
+
 var scrollableMenuitems = document.getElementsByClassName('sectionscroll');
+
+// iterate and assign each a click behavior to scroll to element specified in the data-dest attribute
+
 var _iteratorNormalCompletion = true;
 var _didIteratorError = false;
 var _iteratorError = undefined;
@@ -1763,6 +1781,9 @@ try {
 
       // scroll to destination
       document.querySelector(tgt).scrollIntoView({ behavior: 'smooth' });
+
+      // Turn Off Menu in Mobile
+      bg_menu.turnoff();
     });
   }
 } catch (err) {

@@ -9,10 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/css/app.css">
   </head>
   <body>
-    <div class="pageWrapper">
-      @include('layouts.partials.navigation')
       @yield('content')
-      <script type="text/javascript" src="/js/app.js"></script>
-    </div>
+
   </body>
 </html>

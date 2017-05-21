@@ -1,7 +1,7 @@
 require('./modules/_flickity.js');
 require('smoothscroll-polyfill').polyfill();
 
-require('./modules/_mobilemenu.js');
+require('./modules/_bg_menu.js');
 require('./modules/_scrolltobehavior.js');
 
 // Stuff that comes with laravel. commented all.
