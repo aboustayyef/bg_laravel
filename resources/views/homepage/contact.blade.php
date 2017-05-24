@@ -83,7 +83,7 @@
 		</div>
 		<h2 id="contact" class="section__title bump">Other Places you can find us</h2>
 		<div class="block">
-			<div class="socialmedia__circle"><i class="fa fa-envelope-open"></i></div>
+			<div class="socialmedia__circle"><i class="fa fa-envelope"></i></div>
 			<div class="socialmedia__circle"><i class="fa fa-instagram"></i></div>
 			<div class="socialmedia__circle"><i class="fa fa-twitter"></i></div>
 			<div class="socialmedia__circle"><i class="fa fa-facebook-square"></i></div>

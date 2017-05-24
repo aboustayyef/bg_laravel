@@ -1,6 +1,7 @@
 <section class="section is-paddingless">
 
 <div class="main-carousel">
+	<div class="carousel-cell carousel-bg-image" data-flickity-bg-lazyload="{{asset('/img/slides/lennox_soft_2016_002.jpg')}}"></div>
 	<div class="carousel-cell carousel-bg-image" data-flickity-bg-lazyload="{{asset('/img/slides/laptops-and-couch.jpg')}}"></div>
 	<div class="carousel-cell carousel-bg-image" data-flickity-bg-lazyload="{{asset('/img/slides/reference_silver_088.jpg')}}"></div>
 	<div class="carousel-cell carousel-bg-image" data-flickity-bg-lazyload="{{asset('/img/slides/sanders_Letto_001.jpg')}}"></div>

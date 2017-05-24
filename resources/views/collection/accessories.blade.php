@@ -1,11 +1,11 @@
 @extends('layouts.collection')
 
 @section('title')
-	Our Home Collection - (BG) Blue Gallery Ghana
+	Our Accessories - (BG) Blue Gallery Ghana
 @stop
 
 @section('collection-title')
-	Our Home Collection
+	Our Accessories
 @stop
 
 @section('collection-subtitle')
@@ -37,8 +37,8 @@
 
 			<div class="columns">
 				<div class="column is-2">
-					<div class="subtitle is-4">
-						Our Sofas combine comfort and practicality. They're both beautiful and versatile.
+					<div class="subtitle">
+						A few words to talk about how awesome the sofas are
 					</div>
 				</div>
 				<div class="column">
@@ -53,7 +53,7 @@
 
 			<hr>
 
-			<h2 class="section__title section__give_space has-text-right">Our Armchairs have Style, Strength and Grace</h2>
+			<h2 class="section__title section__give_space has-text-right">Armchairs with Style and Grace</h2>
 			<div class="columns">
 				<div class="column">
 					<?php $thumbset = (new App\ThumbSet('/img/furnitureThumbs/ditre_armchairs/'))->list ; ?>
@@ -64,8 +64,8 @@
 					</div>	
 				</div>
 				<div class="column is-2">
-					<div class="subtitle is-4">
-						Sturdy, chique and with personality
+					<div class="subtitle">
+						A few words to describe the cool armchairs
 					</div>
 				</div>
 			</div>
@@ -76,8 +76,8 @@
 
 			<div class="columns">
 				<div class="column is-2">
-					<div class="subtitle is-4">
-						You spend a third of your life in bed. Make the best out of it.
+					<div class="subtitle">
+						A few words to talk about how awesome the beds are
 					</div>
 				</div>
 				<div class="column">

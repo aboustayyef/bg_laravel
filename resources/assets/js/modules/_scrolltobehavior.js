@@ -7,8 +7,9 @@ const scrollableMenuitems = document.getElementsByClassName('sectionscroll');
 
 for (var item of scrollableMenuitems) {
   item.addEventListener('click', function(e){
+  	e.preventDefault();
   	const tgt = e.target.dataset.dest;
-
+  	console.log(e.target);
   	// scroll to destination
   	document.querySelector(tgt).scrollIntoView({ behavior: 'smooth' });
 

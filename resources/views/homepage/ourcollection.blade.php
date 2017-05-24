@@ -13,16 +13,20 @@
 
 		  <div class="column">
 		    <h4 class="section__header">Office Furniture</h4>
-		    <img src="/img/collection_interstuhl.jpg" alt="">
+		    <a href="/collection/office"><img src="/img/collection_interstuhl.jpg" alt=""></a>
 		    <p class="block">High quality office chairs for maximum seating performance, characterised by exceptional design and state-of-the-art German Technology combined with Italian office furniture that is functional and elegant for a customised and efficient workplace.</p>
-		    <button class="button is-medium">Show me More</button>
+		    <a href="/collection/office"><button class="button is-medium">Show me More</button></a>
+		    <p>&nbsp;</p>
+		    <p>&nbsp;</p>
 		  </div>
 
 		  <div class="column">
 		    <h4 class="section__header">Accessories</h4>
-		    <img src="/img/collection_accessories.jpg" alt="">
+		    <a href="/collection/accessories"><img src="/img/collection_accessories.jpg" alt=""></a>
 		    <p class="block">Rugs, Bowls, vases, dishes,shelf objects &amp; candle holders that will make a great complement to any living area with their distinctive and exquisite style to add more life and spirit to your home.</p>
-		    <button class="button is-medium">Show me More</button>
+		    <a href="/collection/accessories"><button class="button is-medium">Show me More</button></a>
+		    <p>&nbsp;</p>
+		    <p>&nbsp;</p>
 		  </div>
 
 		</div>

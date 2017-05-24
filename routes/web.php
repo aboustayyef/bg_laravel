@@ -1,5 +1,8 @@
 <?php
 
+use Illuminate\Http\Request;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,7 +20,7 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'collection'], function(){
 	Route::get('/', function(){ return redirect('/collection/home') ;}); // redirect collection to collection/home
-	Route::get('/home', function(){ return view('collection.home') ;});
-	Route::get('/office', function(){ return view('collection.office') ;});
-
+	Route::get('/home', function(Request $request){ return view('collection.home')->with('request', $request) ;});
+	Route::get('/office', function(Request $request){ return view('collection.office')->with('request', $request) ;});
+	Route::get('/accessories', function(Request $request){ return view('collection.accessories')->with('request', $request) ;});
 });

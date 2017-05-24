@@ -23,12 +23,12 @@
         <a class="nav-item is-tab sectionscroll" data-dest="#about">
           About
         </a>
-        <span class="nav-item">
-          <a class="button">
-            <span class="icon"><i class="fa fa-mobile-phone"></i></span>
-            <span>Contact Us</span>
-          </a>
-        </span>
+        <a class="nav-item sectionscroll" data-dest="#contact" >
+          <span class="button" data-dest="#contact">
+            <span class="icon" data-dest="#contact"><i class="fa fa-mobile-phone" data-dest="#contact"></i></span>
+            <span data-dest="#contact">Contact Us</span>
+          </span>
+        </a>
       </div>
     </div>
   </nav>

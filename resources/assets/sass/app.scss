@@ -1,7 +1,8 @@
 // Flickity
 @import "flickity";
 
-$primary: #98aff3;
+$primary: #888;
+$secondary: #98aff3;
 
 // bulma
 @import "node_modules/bulma/bulma";
@@ -31,7 +32,7 @@ body{
 
 .socialmedia__circle{
   display:inline-block;
-  padding: 1em;
+  padding: 1em 1.15em;
   background:black;
   color:white;
   border-radius: 50%;
@@ -143,7 +144,7 @@ body{
 
 .section__header{
   margin:1em 0;
-  color: $primary;
+  color: $secondary;
   font-weight:600;
   font-size: 1.2em;
   text-transform: uppercase;
@@ -153,6 +154,11 @@ body{
 
 .nav-item img{
 	max-height:inherit;
+}
+
+.is-fadeable-on-hover:hover{
+  opacity:.7;
+  transition: all 0.5s ease-out;
 }
 
 // Carousel
