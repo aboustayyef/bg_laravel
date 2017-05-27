@@ -24,3 +24,7 @@ Route::group(['prefix' => 'collection'], function(){
 	Route::get('/office', function(Request $request){ return view('collection.office')->with('request', $request) ;});
 	Route::get('/accessories', function(Request $request){ return view('collection.accessories')->with('request', $request) ;});
 });
+
+Route::get('/contact', function(){
+	return view('contact');
+});

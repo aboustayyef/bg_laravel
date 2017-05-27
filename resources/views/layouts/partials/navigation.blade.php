@@ -11,22 +11,22 @@
         <span></span>
       </span>
       <div class="nav-right nav-menu">
-        <a class="nav-item is-tab sectionscroll" data-dest="#collection">
+        <a class="nav-item is-tab sectionscroll" data-dest="#collection" onclick="ga('send', 'event', 'navigation', 'jump to' , 'collection')">
           Collection
         </a>
-        <a class="nav-item is-tab sectionscroll" data-dest="#brands">
+        <a class="nav-item is-tab sectionscroll" data-dest="#brands" onclick="ga('send', 'event', 'navigation', 'jump to' , 'brand')">
           Brands
         </a>
-        <a class="nav-item is-tab sectionscroll" data-dest="#projects">
+        <a class="nav-item is-tab sectionscroll" data-dest="#projects" onclick="ga('send', 'event', 'navigation', 'jump to' , 'Projects')">
           Projects
         </a>
-        <a class="nav-item is-tab sectionscroll" data-dest="#about">
+        <a class="nav-item is-tab sectionscroll" data-dest="#about" onclick="ga('send', 'event', 'navigation', 'jump to' , 'About')">
           About
         </a>
-        <a class="nav-item sectionscroll" data-dest="#contact" >
-          <span class="button" data-dest="#contact">
-            <span class="icon" data-dest="#contact"><i class="fa fa-mobile-phone" data-dest="#contact"></i></span>
-            <span data-dest="#contact">Contact Us</span>
+        <a class="nav-item" href="/contact" >
+          <span class="button">
+            <span class="icon"><i class="fa fa-mobile-phone" ></i></span>
+            <span>Contact Us</span>
           </span>
         </a>
       </div>

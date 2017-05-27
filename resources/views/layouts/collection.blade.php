@@ -27,7 +27,7 @@
               Home Page
             </a>
             <span class="nav-item">
-              <a class="button is-info is-outlined is-inverted">
+              <a class="button is-info is-outlined is-inverted" href="/contact">
                 <span class="icon">
                   <i class="fa fa-mobile"></i>
                 </span>

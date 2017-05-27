@@ -9,7 +9,7 @@
 @stop
 
 @section('collection-subtitle')
-	Relax and focus with Italy's finest...
+	We Mean Business
 @stop
 
 @section('collection-section')
@@ -27,46 +27,37 @@
 					High quality office chairs for maximum seating performance, characterised by exceptional design and state-of-the-art German Technology combined with Italian office furniture that is functional and elegant for a customised and efficient workplace.
 				</p>
 			</div>
-			<div class="column is-2">
+			<div class="column is-1">
 				{{-- Just an empty column --}}
 			</div>
 		</div>
 		<hr>
 
-			<h2 class="section__title section__give_space">Sofas for the comfort of your family and your guests</h2>
-
-			<div class="columns">
-				<div class="column is-2">
-					<div class="subtitle is-4">
-						A few words to talk about how awesome the sofas are
-					</div>
-				</div>
-				<div class="column">
-					<?php $thumbset = (new App\ThumbSet('/img/furnitureThumbs/interstuhl-swivel/'))->list ; ?>
-					<div class="card__collection">
-						@foreach ($thumbset as $key => $thumb)
-							@include('collection.card', ['aspect' => ''])
-						@endforeach
-					</div>
+			<div class="block">
+				<h2 class="has-text-centered section__title">Ergonomic and Precise Swivel Chairs</h2>
+				<div class="has-text-centered subtitle is-4">German engineering at the service of your comfort and productivity</div>
+			</div>
+			<div class="block">
+				<?php $thumbset = (new App\ThumbSet('/img/furnitureThumbs/interstuhl-swivel/'))->list ; ?>
+				<div class="card__collection">
+					@foreach ($thumbset as $key => $thumb)
+						@include('collection.card', ['aspect' => ''])
+					@endforeach
 				</div>
 			</div>
 
 			<hr>
 
-			<h2 class="section__title section__give_space has-text-right">Armchairs with Style and Grace</h2>
-			<div class="columns">
-				<div class="column">
-					<?php $thumbset = (new App\ThumbSet('/img/furnitureThumbs/interstuhl-visitors/'))->list ; ?>
-					<div class="card__collection">
-						@foreach ($thumbset as $key => $thumb)
-							@include('collection.card', ['aspect' => ''])
-						@endforeach
-					</div>	
-				</div>
-				<div class="column is-2">
-					<div class="subtitle is-4">
-						A few words to describe the cool armchairs
-					</div>
+			<div class="block">
+				<h2 class="has-text-centered section__title">Pleasure to do Business with You</h2>
+				<div class="has-text-centered subtitle is-4">Our Visitor Chairs make your Guests feel Welcome</div>
+			</div>
+			<div class="block">
+				<?php $thumbset = (new App\ThumbSet('/img/furnitureThumbs/interstuhl-visitors/'))->list ; ?>
+				<div class="card__collection">
+					@foreach ($thumbset as $key => $thumb)
+						@include('collection.card', ['aspect' => ''])
+					@endforeach
 				</div>
 			</div>
 
