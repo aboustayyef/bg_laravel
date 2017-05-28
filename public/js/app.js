@@ -1779,7 +1779,7 @@ var _didIteratorError = false;
 var _iteratorError = undefined;
 
 try {
-  for (var _iterator = scrollableMenuitems[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+  for (var _iterator = Array.from(scrollableMenuitems)[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
     var item = _step.value;
 
     item.addEventListener('click', function (e) {
