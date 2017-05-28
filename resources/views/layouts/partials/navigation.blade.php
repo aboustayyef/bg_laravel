@@ -11,16 +11,16 @@
         <span></span>
       </span>
       <div class="nav-right nav-menu">
-        <a class="nav-item is-tab sectionscroll" data-dest="#collection" onclick="ga('send', 'event', 'navigation', 'jump to' , 'collection')">
+        <a class="nav-item is-tab sectionscroll" href="#collection" data-dest="#collection" onclick="ga('send', 'event', 'navigation', 'jump to' , 'collection')">
           Collection
         </a>
-        <a class="nav-item is-tab sectionscroll" data-dest="#brands" onclick="ga('send', 'event', 'navigation', 'jump to' , 'brand')">
+        <a class="nav-item is-tab sectionscroll" href="#brands" data-dest="#brands" onclick="ga('send', 'event', 'navigation', 'jump to' , 'brand')">
           Brands
         </a>
-        <a class="nav-item is-tab sectionscroll" data-dest="#projects" onclick="ga('send', 'event', 'navigation', 'jump to' , 'Projects')">
+        <a class="nav-item is-tab sectionscroll" href="#projects" data-dest="#projects" onclick="ga('send', 'event', 'navigation', 'jump to' , 'Projects')">
           Projects
         </a>
-        <a class="nav-item is-tab sectionscroll" data-dest="#about" onclick="ga('send', 'event', 'navigation', 'jump to' , 'About')">
+        <a class="nav-item is-tab sectionscroll" href="#about" data-dest="#about" onclick="ga('send', 'event', 'navigation', 'jump to' , 'About')">
           About
         </a>
         <a class="nav-item" href="/contact" >
