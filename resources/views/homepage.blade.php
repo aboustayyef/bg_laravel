@@ -14,6 +14,6 @@ Blue Gallery Home &amp; Office - Collection
 		@include('homepage.ourbrands')
 		@include('homepage.projects')
 		@include('homepage.about')
-	    <script type="text/javascript" src="/js/app.js"></script>
+	    <script type="text/javascript" src="/js/app.js?v=1.01"></script>
     </div>
 @stop
