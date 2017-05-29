@@ -47,7 +47,7 @@
 				<h2 class="section__title">From Our Blog</h2>
 				<h4 id="blogPostTitle" class="section__header">Loading ...</h4>
 				<figure class="image is-square" id="blogPostImage">
-				  <img src="/img/grey-pixel.gif">
+				  
 				</figure>
 			</div>
 		</div>
