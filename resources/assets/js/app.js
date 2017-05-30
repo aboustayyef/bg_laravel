@@ -1,7 +1,4 @@
 require('./modules/_flickity.js');
-require('smoothscroll-polyfill').polyfill();
-
-window.axios = require('axios');
 
 require('./modules/_bg_menu.js');
 require('./modules/_scrolltobehavior.js');

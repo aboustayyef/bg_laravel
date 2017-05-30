@@ -1,3 +1,5 @@
+require('smoothscroll-polyfill').polyfill();
+
 // Choose Nav elements which have scrolling behavior
 // They are given the class 'sectionscroll'
 

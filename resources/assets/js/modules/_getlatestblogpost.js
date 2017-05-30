@@ -1,3 +1,5 @@
+window.axios = require('axios');
+
 // get the latest blog post
 let latestPost = {};
 let latestPostMediaSource = '';

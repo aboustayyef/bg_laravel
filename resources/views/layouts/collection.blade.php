@@ -69,4 +69,7 @@
 	@yield('collection-section')
 </section>
 </div> <!-- /pagewrapper -->
+
+<script type="text/javascript" src="/js/app-min.js?v=1.00"></script>
+
 @stop
