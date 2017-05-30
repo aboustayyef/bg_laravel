@@ -92,7 +92,14 @@ Contact Us
 			</div>
 		
 				
-			</div>			
+			</div>
+				<h2 id="contact" class="block section__title bump">Other Places you can find us</h2>
+				<div class="block">
+					<a href="mailto:bluegalleryghana@gmail.com"><div class="socialmedia__circle"><i class="fa fa-envelope"></i></div></a>
+					<a href="https://www.instagram.com/bluegallery_ghana/"><div class="socialmedia__circle"><i class="fa fa-instagram"></i></div></a>
+					<a href="https://twitter.com/blue_gallery"><div class="socialmedia__circle"><i class="fa fa-twitter"></i></div></a>
+					<a href="https://web.facebook.com/blue.gallery.ghana"><div class="socialmedia__circle"><i class="fa fa-facebook-square"></i></div></a>
+				</div>		
 			</div>
 		</div>
 	</div>

@@ -216,3 +216,8 @@ figure{
   width:auto;
   opacity:0.7;
 }
+@media all and (max-width: 700px){
+  .customers__logo{
+    height:25px;
+  }
+}
