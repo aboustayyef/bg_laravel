@@ -28,7 +28,7 @@
 
 				  <div class="column">
 				    <h4 class="section__header">In Stock</h4>
-				    <p>With 2 showrooms and a combined display of 1700m2, The furniture you desire in less than a day. No more waiting</p>
+				    <p>Our 1,600 m2 Tema showroom has a wide collection of furniture in stock. No more waiting.</p>
 				  </div>
 
 				  <div class="column">
