@@ -1,16 +1,1 @@
-.header-image-home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.89)), url(/img/collection-home-bg.jpg);
-}
-
-.header-image-office {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.89)), url(/img/collection-office-bg.jpg);
-}
-
-.header-image-accessories {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.89)), url(/img/collection-accessories-bg.jpg);
-}
-
-.is-grey {
-  background-color: #888;
-}
-
+.header-image-home{background-image:linear-gradient(rgba(0,0,0,.49),rgba(0,0,0,.89)),url(/img/collection-home-bg.jpg)}.header-image-office{background-image:linear-gradient(rgba(0,0,0,.49),rgba(0,0,0,.89)),url(/img/collection-office-bg.jpg)}.header-image-accessories{background-image:linear-gradient(rgba(0,0,0,.49),rgba(0,0,0,.89)),url(/img/collection-accessories-bg.jpg)}.is-grey{background-color:#888}
